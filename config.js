@@ -7,8 +7,8 @@ const COOKIE_SECRET_KEY =
 
 const DB_CONNECTION = {
   user: process.env.DB_USER || "postgres",
-  host: process.env.DB_HOST || "localhost",
-  password: process.env.DB_PASSWORD || "123456",
+  host: process.env.DB_HOST || "db", 
+  password: process.env.DB_PASSWORD || "POSTGRESS_PASS",
   database: process.env.DB_NAME || "postgres",
   port: process.env.DB_PORT || "5432"
 };
